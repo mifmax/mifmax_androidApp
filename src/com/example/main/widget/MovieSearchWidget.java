@@ -1,4 +1,4 @@
-package com.example.widget;
+package com.example.main.widget;
 
 import android.app.PendingIntent;
 import android.app.Service;
