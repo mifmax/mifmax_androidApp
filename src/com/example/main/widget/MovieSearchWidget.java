@@ -28,7 +28,7 @@ public class MovieSearchWidget extends AppWidgetProvider {
     public static class UpdateService extends Service {
        
        private MovieSeeker movieSeeker = new MovieSeeker();
-       
+        
         @Override
         public void onStart(Intent intent, int startId) {
             // Build the widget update for today
