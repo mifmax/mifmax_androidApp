@@ -49,8 +49,9 @@ public class MovieSearchWidget extends AppWidgetProvider {
          // Build an update that holds the updated widget contents
          RemoteViews updateViews = new RemoteViews(context.getPackageName(), R.layout.widget_layout);
 
-         updateViews.setTextViewText(R.id.app_name, getString(R.string.app_name));
+         updateViews.setTextViewText(R.id.app_name, "Новый фильм");
          updateViews.setTextViewText(R.id.movie_name, movie.name);
+         //updateViews.setTextViewText(R.id.image_view, movie.overview);
          
          Intent intent = new Intent();
          intent.setAction("android.intent.action.VIEW");
